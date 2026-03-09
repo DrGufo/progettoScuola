@@ -1,0 +1,41 @@
+[ {
+  "id" : 1,
+  "nome" : "Algebra",
+  "descrizione" : "Corso di algebra lineare",
+  "studentiIscritti" : [ 1, 4, 5 ],
+  "insegnante" : {
+    "id" : 1
+  }
+}, {
+  "id" : 2,
+  "nome" : "Meccanica",
+  "descrizione" : "Corso di meccanica classica",
+  "studentiIscritti" : [ 2, 3, 5 ],
+  "insegnante" : {
+    "id" : 2
+  }
+}, {
+  "id" : 3,
+  "nome" : "Calcolo Differenziale",
+  "descrizione" : "Corso di calcolo e analisi matematica",
+  "studentiIscritti" : [ 4, 5 ],
+  "insegnante" : {
+    "id" : 3
+  }
+}, {
+  "id" : 4,
+  "nome" : "English Literature",
+  "descrizione" : "Corso di letteratura inglese",
+  "studentiIscritti" : [ ],
+  "insegnante" : {
+    "id" : 4
+  }
+}, {
+  "id" : 5,
+  "nome" : "Letteratura Italiana",
+  "descrizione" : "Corso di letteratura italiana",
+  "studentiIscritti" : [ ],
+  "insegnante" : {
+    "id" : 5
+  }
+} ]

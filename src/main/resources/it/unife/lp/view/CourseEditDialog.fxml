@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.CourseEditDialogController">
+   <children>
+      <GridPane prefHeight="350.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="180.0" minWidth="10.0" prefWidth="150.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="450.0" minWidth="10.0" prefWidth="430.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Name" />
+            <Label text="Description" GridPane.rowIndex="1" />
+            <Label text="Teacher" GridPane.rowIndex="2" />
+            <Label text="Enrolled Students" GridPane.rowIndex="3" />
+            <Label text="ID" GridPane.rowIndex="4" />
+            <TextField fx:id="nomeField" GridPane.columnIndex="1" />
+            <TextArea fx:id="descrizioneField" prefRowCount="3" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ComboBox fx:id="insegnanteCombo" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ListView fx:id="studentiList" prefHeight="110.0" prefWidth="430.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="idField" disable="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </GridPane>
+      <ButtonBar layoutX="400.0" layoutY="360.0" prefHeight="40.0" prefWidth="190.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleOk" prefHeight="26.0" text="OK" />
+            <Button mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+        </buttons>
+      </ButtonBar>
+      <ButtonBar layoutX="10.0" layoutY="360.0" prefHeight="40.0" prefWidth="350.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleAddStudente" text="Add Student" />
+            <Button mnemonicParsing="false" onAction="#handleRemoveStudente" text="Remove Student" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

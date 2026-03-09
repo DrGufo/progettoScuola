@@ -1,0 +1,36 @@
+[ {
+  "id" : 1,
+  "nome" : "Anna",
+  "cognome" : "Verdi",
+  "dataNascita" : "2005-03-15",
+  "classe" : "3A",
+  "corsi" : [ 1 ]
+}, {
+  "id" : 2,
+  "nome" : "Marco",
+  "cognome" : "Neri",
+  "dataNascita" : "2004-07-22",
+  "classe" : "4B",
+  "corsi" : [ 2 ]
+}, {
+  "id" : 3,
+  "nome" : "Sofia",
+  "cognome" : "Rossi",
+  "dataNascita" : "2005-11-20",
+  "classe" : "3A",
+  "corsi" : [ 1, 3 ]
+}, {
+  "id" : 4,
+  "nome" : "Luca",
+  "cognome" : "Bianchi",
+  "dataNascita" : "2006-02-14",
+  "classe" : "2B",
+  "corsi" : [ 3 ]
+}, {
+  "id" : 5,
+  "nome" : "Elena",
+  "cognome" : "Ferrari",
+  "dataNascita" : "2004-09-10",
+  "classe" : "4A",
+  "corsi" : [ 1, 2 ]
+} ]

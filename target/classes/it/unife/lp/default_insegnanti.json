@@ -1,0 +1,31 @@
+[ {
+  "id" : 1,
+  "nome" : "Mario",
+  "cognome" : "Rossi",
+  "materia" : "Matematica",
+  "corsiInsegnati" : [ 1 ]
+}, {
+  "id" : 2,
+  "nome" : "Luigi",
+  "cognome" : "Bianchi",
+  "materia" : "Fisica",
+  "corsiInsegnati" : [ 2 ]
+}, {
+  "id" : 3,
+  "nome" : "Paolo",
+  "cognome" : "Verdi",
+  "materia" : "Informatica",
+  "corsiInsegnati" : [ 3 ]
+}, {
+  "id" : 4,
+  "nome" : "Giulia",
+  "cognome" : "Ferrari",
+  "materia" : "Inglese",
+  "corsiInsegnati" : [ 4 ]
+}, {
+  "id" : 5,
+  "nome" : "Roberto",
+  "cognome" : "Conti",
+  "materia" : "Italiano",
+  "corsiInsegnati" : [ 5 ]
+} ]
