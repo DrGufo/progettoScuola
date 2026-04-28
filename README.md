@@ -16,7 +16,7 @@ Il progetto utilizza Maven per compilazione ed esecuzione e adotta file JSON per
 
 ## Prerequisiti
 
-Prima di avviare il progetto e necessario disporre dei seguenti componenti.
+Prima di avviare il progetto è necessario disporre dei seguenti componenti.
 
 1. Java JDK 11 o compatibile
 	- Sito Oracle: `https://www.oracle.com/java/technologies/downloads/`
@@ -88,7 +88,7 @@ Comportamento all'avvio:
 L'applicazione memorizza il percorso dell'ultimo dataset in:
 - Windows: `%USERPROFILE%\scuola_config.txt`
 
-Per avviare una sessione senza auto-ricaricamento dell'ultimo file, e sufficiente eliminare il file di configurazione indicato sopra.
+Per avviare una sessione senza auto-ricaricamento dell'ultimo file, è sufficiente eliminare il file di configurazione indicato sopra.
 
 ## Utilizzo Dell'applicazione
 
@@ -96,7 +96,7 @@ Menu principali:
 - `File`: New, Open, Save, Save As
 - `View`: Students, Teachers, Courses
 
-Funzionalita principali:
+Funzionalità principali:
 - gestione CRUD studenti, insegnanti, corsi
 - assegnazione insegnante a corso
 - iscrizione/rimozione studenti dai corsi
@@ -114,7 +114,7 @@ Funzionalita principali:
 3. Selezionare `File -> Save As` e indicare un nome base (esempio `nuovo_anno.json`).
 4. Procedere con l'inserimento dei dati e salvare periodicamente.
 
-Nota: il salvataggio e organizzato per tipologia di dato. Per mantenere coerenti i tre file (`studenti/insegnanti/corsi`), e consigliato utilizzare sempre lo stesso nome base.
+Nota: il salvataggio è organizzato per tipologia di dato. Per mantenere coerenti i tre file (`studenti/insegnanti/corsi`), è consigliato utilizzare sempre lo stesso nome base.
 
 ## Comandi Maven Utili
 
